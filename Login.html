@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="loogin.css">
+  <script defer src="loggin.js"></script>
+</head>
+
+<body>
+ 
+   
+
+    <section id="header">
+        <a href="#"><img src="logoFinal.png" height="90" width="300" class="logo1" alt=""></a>
+        
+ 
+ 
+         <u1 id="navbar">
+                 <div class="SearchBar">
+                 <input type="text" placeholder="Search Medicines" name="search">
+                 <button type="submit"><i class="fas fa-search fa-lg"></i></button>
+             </div>
+ 
+             <li><a href="index.html">Home</a></li>  
+             <li><a href="shop.html">Shop</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a class="active" href="Login.html">Log In</a></li>
+             <li><a href="profile.html">Profile</a></li>
+             <li id="lg-cart"><a href="cart.html"><i class="fal fa-shopping-cart"></i></a></li>
+             <a href="#" id="close"><i class="far fa-times"></i></a>
+         </u1>
+
+        <div id="mobile">
+       <a href="cart.html"><i class="fal fa-shopping-cart"></i></a>
+       <i id="bar" class="fas fa-outdent"></i>
+       <script type="text/javascript">
+         function googleTranslateElementInit() {
+             new google.translate.TranslateElement(
+                 {pageLanguage: 'en'},
+                 'google_translate_element'
+             );
+         }
+     </script>
+  
+     <script type="text/javascript"
+             src="https://translate.google.com/translate_a/element.js?
+ cb=googleTranslateElementInit">
+     </script>
+     </div>
+     </section>
+     <div class="marquee-font">
+     <marquee>
+      Free Shipping to your doorstep on orders upon ₹1,000, Cash on delivery available
+     </marquee>
+     </div>
+  <main id="main-holder">
+    <h1 id="login-header">Login</h1>
+    
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+  
+  </main>
+</body>
+
+</html>
